@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(.//img/food/20.jpg) top no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1203px) and (min) {
+  body {
+    background: darkgray;
+    display: block;
+  }
+  body img {
+    width: 0px;
+    height: 0;
+  }
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.808);
+  color: #ca6c4a;
+  text-align: center;
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 1rem;
+}
+
+nav span {
+  color: orange;
+}
+
+.slogan {
+  background-color: #22252a;
+  color: white;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+}
+
+.slogan span {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.food {
+  display: inline;
+  min-height: 100vh;
+  padding: 60px 15px;
+}
+
+.food .card {
+  width: 30%;
+  height: 40px;
+  float: left;
+  padding: 0px 15px;
+}
+
+.food .box {
+  padding: 15px;
+  background-color: #2d3035;
+  border-radius: 5px;
+}
+
+.food .box img {
+  width: 350px;
+  display: block;
+  margin: 1px auto;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.808);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.description {
+  position: absolute;
+  bottom: 95px;
+  padding: 5px;
+  width: 50vh;
+  height: 20vh;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.description h3 {
+  position: relative;
+  background-color: #2d3035;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 18px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: cyan;
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
