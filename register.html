@@ -7,38 +7,28 @@
   <link href="register.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
+<div id="login-form">
+  <div class="left-box">
+    <h1>Sign up</h1>
 
-  <form action="">
+    <input type="text" name="username" placeholder="Username">
+    <input type="text" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <input type="password" name="password2" placeholder="Retype password">
 
-    <fieldset>
-    <div class="container">
+    <input type="submit" name="signup-button" value="Sign Up">
+  </div>
 
-      <h1>EDU RESTAURANT</h1>
+  <div class="right-box">
 
-      <h2>Register</h2>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
+    <span class="signinwith" style="color:crimson;">Log In With <br>social Network</span>
+
+    <button class="social facebook">Login With Facebook</button>
+    <button class="social twitter">Login With Twitter</button>
+    <button class="social google">Login With Google+</button>
+  </div>
+<div class="or">OR</div>
+</div>
   
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-  
-      <label for="psw-comfirm"><b>Comfirm Password</b></label>
-      <input type="password" placeholder="Comfirm Password" name="psw-comfirm" required>
-      <hr>
-  
-      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-      <button type="submit" class="registerbtn">Register</button>
-    </div>
-  
-    <div class="container signin">
-      <p>Already have an account? <a href="#">login Here</a>.</p>
-    </div>
-
-  </fieldset>
-
-  </form>
-</body>
+</body> 
 </html>
