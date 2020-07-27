@@ -7,6 +7,7 @@ body {
 
     margin: 0; 
     padding: 0;
+    background-color: ghostwhite;
 }
 
 main {
@@ -33,6 +34,15 @@ nav ul li {
 a {
     text-decoration: none;
     color: white;
+}
+
+li:hover{
+    background-color: rgb(224, 129, 129);
+    /*color: black; */
+}
+
+a:hover {
+    color: black;
 }
 
 li.logo {
