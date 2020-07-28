@@ -3,20 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>edu restaurant</title>
+  <title>edu restaurant menu login page
+  </title>
   <link href="register.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
+<body>  
+
+  <form class="myform">
 <div id="login-form">
   <div class="left-box">
     <h1>Sign up</h1>
 
-    <input type="text" name="username" placeholder="Username">
-    <input type="text" name="email" placeholder="Email">
-    <input type="password" name="password" placeholder="Password">
-    <input type="password" name="password2" placeholder="Retype password">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="text" name="email" placeholder="Email"required>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type="password" name="password2" placeholder="Retype password" required>
 
-    <input type="submit" name="signup-button" value="Sign Up">
+    <input type="submit" name="signup-button" value="Sign Up" onclick="myFunction()">
   </div>
 
   <div class="right-box">
@@ -29,6 +32,8 @@
   </div>
 <div class="or">OR</div>
 </div>
-  
+</form>
+
+<script src="register.js"></script>
 </body> 
 </html>
