@@ -4,20 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>edu restaurant</title>
-  <link href="register.css" type="text/css" rel="stylesheet"/>
+  <link href="../Styles/register.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 <div id="login-form">
   <div class="left-box">
     <h1>Sign up</h1>
 
-    <input type="text" name="username" placeholder="Username">
-    <input type="text" name="email" placeholder="Email">
-    <input type="password" name="password" placeholder="Password">
-    <input type="password" name="password2" placeholder="Retype password">
+    <form action="">
+      <input type="text" id="username" name="username" placeholder="Username">
+      <input type="text" id="email" name="email" placeholder="Email">
+      <input type="password" name="password" placeholder="Password">
+      <input type="password" id="passwd" name="password2" placeholder="Retype password">
+  
+      <input type="submit" id="btn" name="signup-button" value="Sign Up" onclick="">
 
-    <input type="submit" name="signup-button" value="Sign Up">
+      <!-- <h3 id="msg" style="color: black;">helooo</h3> -->
+      
+    </form>
+   
   </div>
+
 
   <div class="right-box">
 
@@ -27,8 +34,12 @@
     <button class="social twitter">Login With Twitter</button>
     <button class="social google">Login With Google+</button>
   </div>
-<div class="or">OR</div>
+  <div class="or">OR</div>
 </div>
+
+
+
+<script src="../JS_files/main.js"></script>
   
 </body> 
 </html>
