@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edu restaurant menu login page</title>
+    <link href="../Styles/register.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../Styles/head_n_footer.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="../index.html">Centinel</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="register.html">Login | Sign up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form class="myform">
+      <div id="login-form">
+        <div class="left-box">
+          <h1>Sign up</h1>
+
+          <input type="text" name="username" placeholder="Username" required />
+          <input type="text" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <input
+            type="password"
+            name="password2"
+            placeholder="Retype password"
+            required
+          />
+
+          <input
+            type="submit"
+            name="signup-button"
+            value="Sign Up"
+            onclick="myFunction()"
+          />
+        </div>
+
+        <div class="right-box">
+          <span class="signinwith" style="color: crimson;"
+            >Log In With <br />social Network</span
+          >
+
+          <button class="social facebook">Login With Facebook</button>
+          <button class="social twitter">Login With Twitter</button>
+          <button class="social google">Login With Google+</button>
+        </div>
+        <div class="or">OR</div>
+      </div>
+    </form>
+
+    <footer>
+      <h3>
+        All rights reserved by <a href="#">Centinel_Team</a> &nbsp; &copy;
+        copyright 2020
+      </h3>
+    </footer>
+
+    <script src="../JS_files/register.js"></script>
+  </body>
+</html>

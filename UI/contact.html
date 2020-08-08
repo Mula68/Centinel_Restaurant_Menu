@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="cent.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Styles/contact.css">
+    <link rel="stylesheet" href="../Styles/head_n_footer.css">
 </head>
 <body>
+    <header>
+        <nav>
+
+            <ul>
+                <li class="logo"><a href="../index.html">Centinel</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="register.html">Login | Sign up</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
     <div class="box">
         <h1>Contact Us</h1>
             <form>
@@ -19,7 +32,7 @@
                     <input type="email"  required>
                     <label>Email</label>
                 </div>
-                <div class="inputbox">  
+                <div class="inputbox">
                     <input type="text"  required>
                     <label>Subject</label>
                 </div>
@@ -27,19 +40,14 @@
                    <textarea placeholder="message"></textarea>
                     <label >Message</label>
                 </div>
-                <input type="submit" class="btn" value="SUBMIT">
-            </form><br><br><br><br>
-
-            <div class="icons">
-                <ul>
-                    <li><p>Find Us</p></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>&nbsp;
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-          </div>
+                <input type="submit" class="btn" value="SUBMIT" onclick="submition()">
+            </form>
     </div>
-    
+
+    <footer>
+        <h3>All rights reserved by <a href="#">Centinel_Team</a> &nbsp; &copy; copyright 2020 </h3>
+    </footer>
+
+    <script src="contact.js"></script>
 </body>
 </html>

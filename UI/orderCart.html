@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/menu.css">
+    <link rel="stylesheet" href="../Styles/head_n_footer.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+
+            <ul>
+                <li class="logo"><a href="../index.html">Centinel</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Login | Sign up</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="menuContent">
+
+            <div class="cart">
+               <form action="">
+                <h3>quantity</h3>
+                
+                <label for="qty">quantity</label>
+
+                <p><input type="text" name="quantity" id="qty"></p>
+
+                <h3>payment option</h3>
+
+                <label for="payment">Choose payment</label>
+
+                <p>
+                    <select name="payment" id="payment">
+                        <option value="Mobile Money">Mobile Money</option>
+                        <option value="credit card">Credit Card</option>
+                    </select>
+                </p>
+
+                <label for="card_no">Card number</label>
+
+                <p><input type="text" name="card_no" id="card_no"></p>
+
+               </form>
+            </div>
+
+            <div class="cart">
+                
+                <form action="">
+                    <h3>Contact</h3>
+
+                <label for="name">Name</label>
+                <p><input type="text" name="name" id="name"></p>
+
+                <label for="phone">Phone</label>
+                <p></p><input type="text" name="phone" id="phone"></p>
+
+                <h3>address</h3>     
+                
+                <label for="address">Address</label>
+                <p><input type="text" name="address" id="address"></p>
+                <button onclick="placeOrder()">Place Order</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h3> All rights reserved by <a href="#">Centinel_Team</a> &nbsp; &copy; copyright 2020 </h3>
+    </footer>
+
+    <script src="../JS_files/menu.js"></script>
+
+    
+</body>
+</html>
