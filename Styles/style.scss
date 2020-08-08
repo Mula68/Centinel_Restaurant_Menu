@@ -10,6 +10,7 @@ body{
     height: 100vh;
     background-color: darkgray;
     overflow-x: hidden;
+    font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
 
     img{
         height: 100vh;
@@ -17,11 +18,13 @@ body{
     }
 
 }
+
+
 nav{
     background-color: rgba(0, 0, 0, 0.808);
     color:rgb(202, 108, 74);
     text-align: center;
-    font-family: 'Grenze Gotisch', cursive;
+    // font-family: 'Grenze Gotisch', cursive;
     font-size: 2rem;
 
     span{
@@ -45,7 +48,7 @@ nav{
     text-align: center;
     
     span{
-        font-family: 'Dancing Script', cursive;
+        // font-family: 'Dancing Script', cursive;
         font-size: 2rem;
     }
 }
