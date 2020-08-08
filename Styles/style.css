@@ -16,7 +16,7 @@ body img {
   width: 100%;
 }
 
-nav {
+/* nav {
   background-color: rgba(0, 0, 0, 0.808);
   color: #ca6c4a;
   text-align: center;
@@ -39,7 +39,7 @@ nav ul {
 nav ul li {
   width: 20px;
   list-style: none;
-}
+} */
 
 .slogan {
   background-color: #22252a;
