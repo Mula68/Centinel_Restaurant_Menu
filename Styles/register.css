@@ -1,11 +1,13 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
 body{
   margin: 0;
   padding: 0;
   background: #efefef;
   font-size: 14px;
   color: #777;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   font-weight: 300;
 }
 }
@@ -48,7 +50,7 @@ height: 32px;
 border: none;
 outline: none;
 border-bottom: 1px solid #aaa;
-font-family: sans-serif;
+/* font-family: sans-serif; */
 font-weight: 400;
 font-size: 15px;
 transition: 0.2s ease;
@@ -62,7 +64,7 @@ input[type="submit"]{
   border: none;
   border-radius: 2px;
   color: #fff;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-weight: 500;
   text-transform: uppercase;
   transition: 0.2s ease;
@@ -118,7 +120,7 @@ button.social{
   border: none;
   border-radius: 2px;
   color: #fff;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   font-weight: 500;
   transition: 0.2s ease;
   cursor: pointer;

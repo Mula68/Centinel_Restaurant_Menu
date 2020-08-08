@@ -9,6 +9,7 @@ body {
   height: 100vh;
   background-color: darkgray;
   overflow-x: hidden;
+  font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
 }
 
 body img {
@@ -50,7 +51,7 @@ nav ul li {
 }
 
 .slogan span {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
   font-size: 2rem;
 }
 
