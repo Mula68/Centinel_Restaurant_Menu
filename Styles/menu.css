@@ -48,7 +48,7 @@ main {
     padding: 0.5rem;
 }
 
-.a {
+.menuItem {
     width: 32%;
     background-color: rgba(99, 4, 4, 0.479);
     border-radius: 5px;
@@ -58,18 +58,18 @@ main {
 
 
 
-.a img {
+.menuItem img {
     width: 100%;
 }
 
-.a button {
+.menuItem button {
     outline: none;
     border: none;
     border-radius: 5px;
     padding: 1em;
 }
 
-.a button:hover {
+.menuItem button:hover {
     background-color: rgba(122, 5, 5, 0.781);
     color: white;
     cursor: pointer;
