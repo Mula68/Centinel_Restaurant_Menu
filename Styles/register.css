@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+
 body{
   margin: 0;
   padding: 0;
@@ -9,25 +9,77 @@ body{
   font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
   font-weight: 300;
-}
-}
+} 
 
 #login-form{
-  position: relative;
-  margin: 5% auto;
-  width: 600px;
+  /* position: relative; */
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  margin: 5rem 20rem ;
+  width: 50%;
   height: 400px;
-  background: #fff;
+  /* background: #fff; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
+@media only screen and (max-width: 768px){
+
+  #login-form{
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 1rem 1rem;
+    padding: 0;
+  }
+
+  .left-box, .right-box {
+    min-width: 100%;
+    margin: 0;
+    /* box-sizing: border-box; */
+    padding: 0;
+    /* background-color: #32508e; */
+  }
+
+  h1{
+    margin: 0, 0, 20px, 0;
+    font-weight: 300;
+    font-size: 14px;
+    color: crimson;
+  }
+
+  input[type="text"], input[type="password"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    /* font-family: sans-serif; */
+    font-weight: 400;
+    font-size: 8px;
+    transition: 0.2s ease;
+}
+
+
+  .or{
+    display: none;
+  }
+}
+
 .left-box{
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  left: 0;
+  left: 0; */
   box-sizing: border-box;
   padding: 40px;
-  width: 300px;
+  width: 40%;
   height: 400px;
   background-color: #32508e;
 }
@@ -80,17 +132,15 @@ transition: 0.2s ease;
 }
 
 .right-box{
-  position: absolute;
+  /* position: absolute;
   top: 0;
-  right: 0;
-  box-sizing: border-box; 
+  right: 0; */
+  box-sizing: border-box;
   padding: 40px;
-  width: 300px;
+  width: 40%;
   height: 400px;
-  /* background-image: url(img5.jpg);
-  background-size: cover;
-  background-position: center;  */
 }
+
 .or{
   position: absolute;
   top: 180px;

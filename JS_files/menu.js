@@ -58,7 +58,7 @@ for (let i = 0; i <= cart.length; i++) {
 
                     <button style="height:2rem; width:8rem; border-radius:5px;"><a href="menu.html" style="color:blue;">Add more items</a></button>
 
-                    <button style="height:2rem; width:8rem; border-radius:5px;"><a href="#" style="color:blue;" onClick"${order()}">Add to order</a></button>
+                    <button id="placeOrder" style="height:2rem; width:8rem; border-radius:5px;"><a href="#" style="color:blue;">Add to order</a></button>
 
                     
                 
@@ -73,10 +73,11 @@ for (let i = 0; i <= cart.length; i++) {
                 }
                 );
 
-                function order() {
+                document.querySelector('#placeOrder').addEventListener('click', 
+                function(){
                     alert('You must login first to place your order');
-                }
-           
+                });
+
         }
     );
     

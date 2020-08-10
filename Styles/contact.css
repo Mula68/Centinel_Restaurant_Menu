@@ -10,12 +10,23 @@
     height: 100vh;
     font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
   }
+
+  @media screen and (max-width: 768px){
+    .box{
+      width: 80%;
+      margin: 1rem;
+    }
+    form {
+      width: 70%;
+      /* margin: 2rem; */
+    }
+  }
   
   .box {
     position: absolute;
     padding: 40px;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     width: 400px;
@@ -97,13 +108,6 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
-body {
-  background: url(../images/1.jpg) top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
 
 .box {
   position: absolute;
