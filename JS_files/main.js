@@ -1,57 +1,27 @@
-// // storing user info
 
-// let users = [];
+// let mobile = window.matchMedia('(max-width: 768px)');
 
-// const addUser = (ev) => {
-//     ev.preventDefault();
+// let desktop = window.matchMedia('(min-width: 768px');
 
-//     let user = {
-//         userName: document.getElementById('username').value, 
-//         email: document.getElementById('email').value,
-//         password: document.getElementById('passwd').value
-//     };
+// const head  = document.getElementsByTagName('head')[0];
 
-//     users.push(user);
+// const link  = document.createElement('link');
 
-//     document.querySelector('form').reset();
+// link.rel  = 'stylesheet';
 
+// link.type = 'text/css';
 
-//     console.warn('added', {users});
-
-//     localStorage.setItem('UserCredentials', JSON.stringify(users));
-
-//     alert('Thank you for registering with us');
-
-//     // /let message = document.querySelector('#msg');
-
-//     // message.textContent = '\n' + JSON.stringify(users);
+// if(desktop){
     
+    
+//     link.href = './Styles/style.css';
+//     // link.media = 'all';
+   
+// }
+//  else{
+
+//     link.href = './Styles/style.css';
+
 // }
 
-// document.addEventListener(
-//     'DOMContentLoaded', ()=>{
-//         document.getElementById('btn').addEventListener('click', addUser);
-//     }
-// );
-
-// // login authorization
-
-// let login_auth = localStorage.getItem('UserCredenttials');
-
-// function makeAuth() {
-
-//     let email = document.getElementById('email_login').value;
-
-//     let passwd = document.getElementById('passwd_login').value;
-
-//     for (let i = 0; i <= login_auth.length; i++) {
-//         if (email === login_auth.length[i] && passwd === login_auth.length[i]) {
-            
-//         } else {
-            
-//         }
-        
-//     }
-
-// } 
-
+// head.appendChild(link);
