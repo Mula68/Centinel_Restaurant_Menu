@@ -153,8 +153,9 @@ background: #dd4b39;
   }
 
   .left-box, .right-box {
-    width: 90%;
+    width: 100%;
     margin: 0;
+    height: 40%;
     /* box-sizing: border-box; */
     padding: 0;
     /* background-color: #32508e; */
