@@ -1,199 +1,154 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
   }
   
-  body {
+  /* body {
     background: url(../images/1.jpg) top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     font-family:'Grenze Gotisch', 'Lucida Sans Unicode', cursive;
-  }
+  } */
 
-  @media screen and (max-width: 768px){
-    .box{
-      width: 80%;
-      margin: 1rem;
-    }
-    form {
-      width: 70%;
-      /* margin: 2rem; */
-    }
-  }
+ 
   
   .box {
-    position: absolute;
-    padding: 40px;
-    /* top: 50%;
-    left: 50%; */
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 400px;
-    padding: 40px;
+    width: 50%;
+    margin: 1rem 20rem 0 20rem;
+    padding: 3rem;
     background: rgba(0, 0, 0, 0.8);
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
     -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
             box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
   }
   
   .box h1 {
-    margin: 0 0 30px;
+    margin: 0;
     padding: 0;
     color: #1b3;
     text-align: center;
   }
   
-  .box .inputbox {
-    position: relative;
-  }
-  
-  .box .inputbox input {
+  .inputbox input {
     width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 0.5rem;
+    font-size: 1rem;
     color: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 1.5rem;
     border: none;
     border-bottom: 1px solid #fff;
     outline: none;
     background: transparent;
   }
   
-  .box .inputbox label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
+  .inputbox label {
+    padding: 1rem;
+    font-size: 1rem;
     color: #fff;
     pointer-events: none;
-    -webkit-transition: .5s;
-    transition: .5s;
   }
   
-  .box .inputbox input:focus ~ label,
-  .box .inputbox input:valid ~ label {
-    top: -18px;
-    left: 0;
+   .inputbox input:focus ~ label,
+   .inputbox input:valid ~ label {
     color: #1b3;
-    font-size: 12px;
+    font-size: 1rem;
   }
   
-  .box input[type="submit"] {
-    float: right;
+  input[type="submit"] {
+    /* float: right; */
     background: transparent;
+    width: 100%;
     border: none;
     outline: none;
     color: #fff;
     background: #1b3;
-    padding: 10px 20px;
+    padding: 1rem;
     cursor: pointer;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1rem;
   }
   
-  .box textarea {
-    height: 80px;
-    padding: 10px;
-    margin-bottom: 40px;
+  textarea {
+    height: 5rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
   }
   
-  .box input,
-  .box textarea {
-    font-size: 18px;
+  input, textarea {
+    font-size: 1.5rem;
     width: 100%;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+  
   }
 
-.box {
-  position: absolute;
-  padding: 40px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 400px;
-  padding: 40px;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-}
 
-.box h1 {
-  margin: 0 0 30px;
-  padding: 0;
-  color: #1b3;
-  text-align: center;
-}
 
-.box .inputbox {
-  position: relative;
-}
+@media screen and (max-width: 768px){
+  .box{
+    width: 90%;
+    margin: 0.5rem ;
+    padding: 0.6rem;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  form {
+    width: 100%;
+    /* margin: 2rem; */
+  }
 
-.box .inputbox input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background: transparent;
-}
+  .inputbox input {
+    width: 90%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .inputbox label {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    color: #fff;
+  }
+  
+   .inputbox input:focus ~ label,
+   .inputbox input:valid ~ label {
+    color: #1b3;
+    font-size: 1rem;
+  }
+  
+  input[type="submit"] {
+    /* float: right; */
+    background: transparent;
+    width: 95%;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #1b3;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  
 
-.box .inputbox label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-.box .inputbox input:focus ~ label,
-.box .inputbox input:valid ~ label {
-  top: -18px;
-  left: 0;
-  color: #1b3;
-  font-size: 12px;
-}
-
-.box input[type="submit"] {
-  float: right;
-  background: transparent;
-  border: none;
-  outline: none;
-  color: #fff;
-  background: #1b3;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.box textarea {
-  height: 80px;
-  padding: 10px;
-  margin-bottom: 40px;
-}
-
-.box input,
-.box textarea {
-  font-size: 18px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 /*# sourceMappingURL=contact.css.map */
