@@ -17,8 +17,8 @@ body{
   flex-direction:row ;
   flex-wrap: wrap;
   margin: 5rem 20rem ;
-  width: 50%;
-  height: 400px;
+  width: 60%;
+  height: 500px;
   /* background: #fff; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
@@ -31,26 +31,27 @@ body{
   left: 0; */
   box-sizing: border-box;
   padding: 40px;
-  width: 40%;
-  height: 400px;
+  width: 50%;
+  height: 500px;
   background-color: #32508e;
 }
 
 h1{
-  margin: 0, 0, 20px, 0;
+  margin: 1rem;
   font-weight: 300;
   font-size: 28px;
-  color: crimson;
+  color: white;
+  text-align: center;
 }
 
 input[type="text"],
-input[type="password"]{
+input[type="password"], input[type="submit"]{
 display: block;
 box-sizing: border-box;
 margin-bottom: 20px;
 padding: 4px;
-width: 220px;
-height: 32px;
+width: 90%;
+height: 3rem;
 border: none;
 outline: none;
 border-bottom: 1px solid #aaa;
@@ -61,9 +62,6 @@ transition: 0.2s ease;
 }
 
 input[type="submit"]{
-  margin-bottom: 28px;
-  width: 120px;
-  height: 32px;
   background: #f44336;
   border: none;
   border-radius: 2px;
@@ -84,13 +82,11 @@ transition: 0.2s ease;
 }
 
 .right-box{
-  /* position: absolute;
-  top: 0;
-  right: 0; */
+ 
   box-sizing: border-box;
   padding: 40px;
-  width: 40%;
-  height: 400px;
+  width: 50%;
+  height: 500px;
 }
 
 .or{
@@ -107,7 +103,7 @@ transition: 0.2s ease;
   text-align: center;
 }
 
-.right-box .signinwith{
+.signinwith{
   display: block;
   margin-bottom: 40px;
   font-size: 28px;
@@ -118,10 +114,10 @@ transition: 0.2s ease;
 
 button.social{
   margin-bottom: 20px;
-  width: 220px;
-  height: 36px;
+  width: 90%;
+  height: 3rem;
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #fff;
   /* font-family: sans-serif; */
   font-weight: 500;
