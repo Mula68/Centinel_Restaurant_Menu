@@ -11,11 +11,11 @@ for (let i = 0; i <= cart.length; i++) {
             let body = document.querySelector('main');
 
             body.innerHTML = `
-            <div style="height: 100px;">
+            <div style="height: 100px;" class="cart-title" >
 
-                <a href="menu.html" style="text-decoration: none; color:blue; margin-left: 10rem;"> << Back to menu</a>
+                <a href="menu.html" " > << Back to menu</a>
 
-                <h1 style=" margin-left: 10rem;">My Cart</h1>
+                <h1 style="">My Cart</h1>
 
             </div>
 

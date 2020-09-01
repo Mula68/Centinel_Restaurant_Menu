@@ -5,6 +5,7 @@
 
 nav {
     background-color: rgba(0, 0, 0, 0.726);
+    /* display: none; */
    
 }
 
@@ -36,6 +37,10 @@ li.logo {
     font-size: 1.5rem;
 }
 
+#hidden {
+    display: none;
+}
+
 @media only screen and (max-width: 768px){
     nav {  width: 100%;}
     
@@ -47,10 +52,45 @@ li.logo {
     }
 
     li.logo{
-        width: 20%;
+        width: 50%;
         
         font-size: medium; 
     }
+
+    .normal-view {
+        display: none;
+    }
+
+    #hidden {
+        display: block;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+
+
+    #hidden:hover .dropdown-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .dropdown-content {
+        padding: 0.5rem;
+        background-color: gray;
+    }
+
+    .dropdown-content a:hover{
+        background-color: black;
+     
+    }
+
+    
+
+    
+        
 }
 
 footer {
